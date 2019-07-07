@@ -21,7 +21,7 @@
 
 - 使用`tf.data.Dataset`API构建输入数据的Pipeline，但是目前有个问题，每迭代完一个epoch，都要重新读取一次数据（尤其是shuffle阶段，如下图所示），这点有点耗时间，可能是我代码写的有点问题，目前没有解决
 
-  ![train_log](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/train_log.png)
+  ![train_log](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/train_log.png)
 
 - 使用多GPU的方式进行训练，这里使用的是两个1080Ti
 
@@ -42,37 +42,37 @@
 
 - ax1_loss on gpu_0
 
-![loss](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/ax1_loss_gpu0.png)
+![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax1_loss_gpu0.png)
 
 - ax1_loss on gpu_1
 
-![loss](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/ax1_loss_gpu_1.png)
+![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax1_loss_gpu_1.png)
 
 - ax2_loss on gpu_0
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/ax2_loss_gpu0.png)
+  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax2_loss_gpu0.png)
 
 - ax2_loss on gpu_1
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/ax2_loss_gpu1.png)
+  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax2_loss_gpu1.png)
 
   
 
 - main_loss on gpu_0
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/main_loss_gpu0.png)
+  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/main_loss_gpu0.png)
 
 - main_loss on gpu_1
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/main_loss_gpu1.png)
+  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/main_loss_gpu1.png)
 
 - train accuracy
 
-  ![accuracy](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/train_acc.png)
+  ![accuracy](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/train_acc.png)
 
 ### Graph
 
-![graph](/Users/apple/Desktop/论文代码/GoogLeNet_v1/imgs/graph.png)
+![graph](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/graph.png)
 
 ## Reference
 
