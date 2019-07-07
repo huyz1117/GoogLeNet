@@ -21,7 +21,7 @@
 
 - 使用`tf.data.Dataset`API构建输入数据的Pipeline，但是目前有个问题，每迭代完一个epoch，都要重新读取一次数据（尤其是shuffle阶段，如下图所示），这点有点耗时间，可能是我代码写的有点问题，目前没有解决
 
-  ![train_log](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/train_log.png)
+  ![train_log](./imgs/train_log.png)
 
 - 使用多GPU的方式进行训练，这里使用的是两个1080Ti
 
