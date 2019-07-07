@@ -42,37 +42,37 @@
 
 - ax1_loss on gpu_0
 
-![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax1_loss_gpu0.png)
+![loss](./imgs/ax1_loss_gpu0.png)
 
 - ax1_loss on gpu_1
 
-![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax1_loss_gpu_1.png)
+![loss](./imgs/ax1_loss_gpu_1.png)
 
 - ax2_loss on gpu_0
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax2_loss_gpu0.png)
+  ![loss](./imgs/ax2_loss_gpu0.png)
 
 - ax2_loss on gpu_1
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/ax2_loss_gpu1.png)
+  ![loss](./imgs/ax2_loss_gpu1.png)
 
   
 
 - main_loss on gpu_0
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/main_loss_gpu0.png)
+  ![loss](./imgs/main_loss_gpu0.png)
 
 - main_loss on gpu_1
 
-  ![loss](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/main_loss_gpu1.png)
+  ![loss](./imgs/main_loss_gpu1.png)
 
 - train accuracy
 
-  ![accuracy](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/train_acc.png)
+  ![accuracy](./imgs/train_acc.png)
 
 ### Graph
 
-![graph](/Users/apple/Desktop/论文代码/GoogLeNet/imgs/graph.png)
+![graph](./imgs/graph.png)
 
 ## Reference
 
